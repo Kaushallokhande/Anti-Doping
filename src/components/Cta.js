@@ -33,8 +33,8 @@ export default function Cta() {
   ];
 
   return (
-    <section className="text-gray-600 body-font">
-      <div className="container px-5 py-8 mx-auto">
+    <section className="text-gray-600 body-font bg-transparent">
+      <div className="container px-5 py-8 mx-auto ">
         <div className="flex flex-col text-center w-full mb-6">
           <h1 className="sm:text-3xl text-2xl font-semibold title-font mb-4 text-gray-900">{t('cta.topStories')}</h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-700">
@@ -42,12 +42,11 @@ export default function Cta() {
           </p>
         </div>
 
-
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
           {stories.map((story, index) => (
             <div
               key={index}
-              className="flex flex-col justify-between bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+              className="flex flex-col justify-between bg-white p-4 rounded-lg hover:shadow-lg transition-shadow duration-300"
             >
               <div>
                 <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">{story.title}</h2>
@@ -81,7 +80,6 @@ export default function Cta() {
             {t('cta.antiDopingNewsDescription')}
           </p>
         </div>
-
 
         <div className="mb-6 mt-6">
           <h2 className="text-xl font-semibold mb-2">{t('cta.latestNews')}</h2>
@@ -120,7 +118,7 @@ const NewsItem = ({ imgSrc, link }) => {
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      className="relative group overflow-hidden rounded-lg shadow-lg cursor-pointer transform transition-transform duration-300 ease-in-out hover:scale-105"
+      className="relative group overflow-hidden rounded-lg cursor-pointer transform transition-transform duration-300 ease-in-out hover:scale-105"
     >
       <img
         src={imgSrc}

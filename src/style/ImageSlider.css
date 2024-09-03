@@ -14,7 +14,9 @@
   min-height: 400px;
   height: auto;
   margin: auto;
+  box-sizing: border-box;
 }
+
 
 .bar-container {
   display: flex;
