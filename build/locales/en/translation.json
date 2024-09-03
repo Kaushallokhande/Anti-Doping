@@ -1,0 +1,153 @@
+{
+    "rulesAndRegulations": {
+        "title": "Rules and Regulations of Anti-Doping",
+        "prohibitedSubstances": {
+            "title": "1. Prohibited Substances and Methods",
+            "description": "According to the Government of India, the use of certain substances and methods in sports is prohibited. These include:",
+            "items": [
+                "Anabolic agents",
+                "Peptide hormones",
+                "Beta-2 agonists",
+                "Diuretics and masking agents",
+                "Stimulants",
+                "Narcotics",
+                "Cannabinoids"
+            ],
+            "final": "Athletes must ensure that they do not use any prohibited substances or methods as part of their training or competition."
+        },
+        "testingProcedures": {
+            "title": "2. Testing Procedures",
+            "description": "Anti-doping tests are conducted to ensure that athletes are not using prohibited substances. The procedures include:",
+            "items": [
+                "In-competition testing",
+                "Out-of-competition testing",
+                "Sample collection and analysis"
+            ],
+            "final": "Athletes may be selected for testing at any time and are required to comply with the testing process."
+        },
+        "consequences": {
+            "title": "3. Consequences of Doping Violations",
+            "description": "Violations of anti-doping rules can result in severe consequences, including:",
+            "items": [
+                "Disqualification from competitions",
+                "Stripping of titles and awards",
+                "Suspension from participation in sports",
+                "Fines and legal consequences"
+            ],
+            "final": "It is the responsibility of every athlete to be aware of the anti-doping rules and ensure they are not in violation."
+        },
+        "rightsResponsibilities": {
+            "title": "4. Rights and Responsibilities of Athletes",
+            "description": "Athletes have certain rights and responsibilities under the anti-doping regulations, including:",
+            "items": [
+                "The right to request a B sample analysis",
+                "The right to a fair hearing",
+                "The responsibility to remain informed about the anti-doping regulations",
+                "The responsibility to avoid prohibited substances and methods"
+            ],
+            "final": "Athletes must comply with all anti-doping regulations to maintain the integrity of the sport."
+        },
+        "educationalResources": {
+            "title": "5. Educational Resources",
+            "description": "The Government of India provides various educational resources for athletes to stay informed about anti-doping rules. These include:",
+            "items": [
+                "Workshops and seminars",
+                "Online courses and materials",
+                "Guidance from coaches and sports authorities"
+            ],
+            "final": "Athletes are encouraged to take advantage of these resources to ensure they are fully aware of their obligations under the anti-doping regulations."
+        }
+    },
+    "quizTitle": "Quiz Section",
+    "quizDescription": "Test your knowledge on anti-doping.",
+    "easy": "Easy",
+    "medium": "Medium",
+    "hard": "Hard",
+    "resultsTitle": "Results",
+    "resultsDescription": "You answered {{score}} out of {{total}} questions correctly.",
+    "tryAgain": "Try Again",
+    "loadingQuestions": "Loading questions...",
+    "submit": "Submit",
+    "dashboard": {
+        "title": "Personal Dashboard",
+        "personalInformation": "Personal Information",
+        "name": "Name",
+        "email": "Email",
+        "completedQuizzes": "Completed Quizzes",
+        "totalPoints": "Total Points",
+        "quizActivity": "Quiz Activity",
+        "recentUpdates": "Recent Updates",
+        "update1": "Update 1: New anti-doping rules...",
+        "update2": "Update 2: Upcoming webinar on anti-doping...",
+        "update3": "Update 3: Recent changes in testing procedures..."
+    },
+    "menu": {
+        "title": "Personal Dashboard",
+        "personalInformation": "Personal Information",
+        "personalInformationDescription": "View and edit your personal details.",
+        "quizActivity": "Quiz Activity",
+        "quizActivityDescription": "Track your quiz progress and performance.",
+        "antiDopingRules": "Anti-Doping Rules",
+        "antiDopingRulesDescription": "Access the latest anti-doping guidelines and regulations.",
+        "settings": "Settings",
+        "settingsDescription": "Customize your dashboard settings and preferences.",
+        "helpAndSupport": "Help and Support",
+        "helpAndSupportDescription": "Get assistance and find answers to your questions."
+    },
+    "footer": {
+        "antiDopingResources": "ANTI-DOPING RESOURCES",
+        "antiDopingGuidelines": "Anti-Doping Guidelines",
+        "trainingPrograms": "Training Programs",
+        "newsUpdates": "News & Updates",
+        "contactInformation": "Contact Information",
+        "aboutUs": "ABOUT US",
+        "missionStatement": "Mission Statement",
+        "ourApproach": "Our Approach",
+        "meetTheTeam": "Meet the Team",
+        "getInvolved": "GET INVOLVED",
+        "joinOurCommunity": "Join Our Community",
+        "contributeContent": "Contribute Content",
+        "feedbackSuggestions": "Feedback & Suggestions",
+        "followUs": "FOLLOW US"
+    },
+    "cta": {
+        "topStories": "Top Stories",
+        "topStoriesDescription": "Stay informed with the latest top stories related to anti-doping. Discover significant updates, new policies, scientific advances, and more.",
+        "stories": {
+            "highProfileDopingCases": "High-Profile Doping Cases",
+            "highProfileDopingCasesDescription": "Updates on significant athletes who have tested positive for banned substances, including investigations and legal outcomes.",
+            "newAntiDopingPolicies": "New Anti-Doping Policies",
+            "newAntiDopingPoliciesDescription": "Announcements of changes or updates to anti-doping regulations and procedures by organizations like WADA (World Anti-Doping Agency).",
+            "researchAndDevelopments": "Research and Developments",
+            "researchAndDevelopmentsDescription": "Advances in testing methods and scientific research aimed at detecting doping more effectively.",
+            "educationalInitiatives": "Educational Initiatives",
+            "educationalInitiativesDescription": "Efforts to educate athletes, coaches, and officials about the risks and consequences of doping.",
+            "legalAndEthicalIssues": "Legal and Ethical Issues",
+            "legalAndEthicalIssuesDescription": "Discussions on legal cases related to doping and ethical debates surrounding anti-doping measures."
+        },
+        "seeMore": "See More",
+        "antiDopingNews": "Anti-Doping News",
+        "antiDopingNewsDescription": "Anti-doping news provides insights into the latest developments in the fight against doping, including high-profile cases, policy updates, scientific research, and educational efforts.",
+        "latestNews": "Latest News",
+        "readMore": "Read More"
+    },
+    "stats": {
+        "athletesWorldwide": "Number of Athletes Worldwide (in Million)",
+        "dopingIncidence": "Doping Incidence (in Million)",
+        "dopingRelatedDeath": "Doping-Related Death (in Annually)"
+    },
+    "welcome": "Welcome to the Substance Checker",
+    "search_placeholder": "Enter substance name or category",
+    "search_button": "Search",
+    "no_results": "No results found.",
+    "error": "An error occurred while searching.",
+    "substance": "Substance",
+    "category": "Category",
+    "status": "Status",
+    "description": "Description",
+    "something_went_wrong": "Something went wrong.",
+    "try_again_later": "We're sorry, but something went wrong. Please try again later.",
+    "select_language": "Select Your Language",
+    "search_language": "Search language...",
+    "no_languages_found": "No languages found"
+}

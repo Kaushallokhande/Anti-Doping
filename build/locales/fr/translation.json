@@ -1,0 +1,153 @@
+{
+    "rulesAndRegulations": {
+        "title": "Règles et Réglementations Anti-Dopage",
+        "prohibitedSubstances": {
+            "title": "1. Substances et Méthodes Interdites",
+            "description": "Selon le Gouvernement de l'Inde, l'utilisation de certaines substances et méthodes dans le sport est interdite. Celles-ci incluent :",
+            "items": [
+                "Agents anabolisants",
+                "Hormones peptidiques",
+                "Agonistes des bêta-2",
+                "Diurétiques et agents masquants",
+                "Stimulants",
+                "Narcotiques",
+                "Cannabinoïdes"
+            ],
+            "final": "Les athlètes doivent s'assurer qu'ils n'utilisent aucune substance ou méthode interdite dans le cadre de leur entraînement ou de leur compétition."
+        },
+        "testingProcedures": {
+            "title": "2. Procédures de Test",
+            "description": "Les tests anti-dopage sont effectués pour garantir que les athlètes n'utilisent pas de substances interdites. Les procédures incluent :",
+            "items": [
+                "Tests en compétition",
+                "Tests hors compétition",
+                "Collecte et analyse des échantillons"
+            ],
+            "final": "Les athlètes peuvent être sélectionnés pour des tests à tout moment et doivent se conformer au processus de test."
+        },
+        "consequences": {
+            "title": "3. Conséquences des Violations des Règles de Dopage",
+            "description": "Les violations des règles anti-dopage peuvent entraîner des conséquences sévères, y compris :",
+            "items": [
+                "Disqualification des compétitions",
+                "Suppression des titres et des récompenses",
+                "Suspension de la participation aux sports",
+                "Amendes et conséquences légales"
+            ],
+            "final": "Il est de la responsabilité de chaque athlète de connaître les règles anti-dopage et de s'assurer qu'il ne les enfreint pas."
+        },
+        "rightsResponsibilities": {
+            "title": "4. Droits et Responsabilités des Athlètes",
+            "description": "Les athlètes ont certains droits et responsabilités en vertu des règlements anti-dopage, y compris :",
+            "items": [
+                "Le droit de demander une analyse de l'échantillon B",
+                "Le droit à une audience équitable",
+                "La responsabilité de rester informé des règlements anti-dopage",
+                "La responsabilité d'éviter les substances et méthodes interdites"
+            ],
+            "final": "Les athlètes doivent se conformer à tous les règlements anti-dopage pour maintenir l'intégrité du sport."
+        },
+        "educationalResources": {
+            "title": "5. Ressources Éducatives",
+            "description": "Le Gouvernement de l'Inde fournit diverses ressources éducatives pour aider les athlètes à rester informés des règles anti-dopage. Celles-ci incluent :",
+            "items": [
+                "Ateliers et séminaires",
+                "Cours et matériaux en ligne",
+                "Conseils des entraîneurs et des autorités sportives"
+            ],
+            "final": "Les athlètes sont encouragés à profiter de ces ressources pour s'assurer qu'ils sont pleinement conscients de leurs obligations en vertu des règlements anti-dopage."
+        }
+    },
+    "quizTitle": "Section Quiz",
+    "quizDescription": "Testez vos connaissances sur le dopage.",
+    "easy": "Facile",
+    "medium": "Moyenne",
+    "hard": "Difficile",
+    "resultsTitle": "Résultats",
+    "resultsDescription": "Vous avez répondu correctement à {{score}} sur {{total}} questions.",
+    "tryAgain": "Réessayer",
+    "loadingQuestions": "Chargement des questions...",
+    "submit": "Soumettre",
+    "dashboard": {
+        "title": "Tableau de Bord Personnel",
+        "personalInformation": "Informations Personnelles",
+        "name": "Nom",
+        "email": "Email",
+        "completedQuizzes": "Quiz Complétés",
+        "totalPoints": "Points Totaux",
+        "quizActivity": "Activité de Quiz",
+        "recentUpdates": "Mises à Jour Récentes",
+        "update1": "Mise à jour 1 : Nouvelles règles anti-dopage...",
+        "update2": "Mise à jour 2 : Webinaire à venir sur le dopage...",
+        "update3": "Mise à jour 3 : Changements récents dans les procédures de test..."
+    },
+    "menu": {
+        "title": "Tableau de Bord Personnel",
+        "personalInformation": "Informations Personnelles",
+        "personalInformationDescription": "Voir et modifier vos informations personnelles.",
+        "quizActivity": "Activité de Quiz",
+        "quizActivityDescription": "Suivez vos progrès et performances dans les quiz.",
+        "antiDopingRules": "Règles Anti-Dopage",
+        "antiDopingRulesDescription": "Accédez aux dernières directives et réglementations anti-dopage.",
+        "settings": "Paramètres",
+        "settingsDescription": "Personnalisez les paramètres et les préférences de votre tableau de bord.",
+        "helpAndSupport": "Aide et Support",
+        "helpAndSupportDescription": "Obtenez de l'aide et trouvez des réponses à vos questions."
+    },
+    "footer": {
+        "antiDopingResources": "RESSOURCES ANTI-DOPAGE",
+        "antiDopingGuidelines": "Directives Anti-Dopage",
+        "trainingPrograms": "Programmes de Formation",
+        "newsUpdates": "Actualités & Mises à Jour",
+        "contactInformation": "Informations de Contact",
+        "aboutUs": "À PROPOS DE NOUS",
+        "missionStatement": "Déclaration de Mission",
+        "ourApproach": "Notre Approche",
+        "meetTheTeam": "Rencontrez l'Équipe",
+        "getInvolved": "IMPLIQUEZ-VOUS",
+        "joinOurCommunity": "Rejoignez Notre Communauté",
+        "contributeContent": "Contribuer du Contenu",
+        "feedbackSuggestions": "Commentaires & Suggestions",
+        "followUs": "SUIVEZ-NOUS"
+    },
+    "cta": {
+        "topStories": "Dernières Nouvelles",
+        "topStoriesDescription": "Restez informé des dernières nouvelles importantes concernant le dopage. Découvrez les mises à jour significatives, les nouvelles politiques, les avancées scientifiques et plus encore.",
+        "stories": {
+            "highProfileDopingCases": "Affaires de Dopage Très Médiatisées",
+            "highProfileDopingCasesDescription": "Mises à jour sur les athlètes notables ayant été testés positifs pour des substances interdites, y compris les enquêtes et les résultats juridiques.",
+            "newAntiDopingPolicies": "Nouvelles Politiques Anti-Dopage",
+            "newAntiDopingPoliciesDescription": "Annonces de changements ou de mises à jour des règlements et procédures anti-dopage par des organisations comme l'AMA (Agence Mondiale Antidopage).",
+            "researchAndDevelopments": "Recherche et Développements",
+            "researchAndDevelopmentsDescription": "Avancées dans les méthodes de test et recherche scientifique visant à détecter le dopage plus efficacement.",
+            "educationalInitiatives": "Initiatives Éducatives",
+            "educationalInitiativesDescription": "Efforts pour éduquer les athlètes, les entraîneurs et les officiels sur les risques et les conséquences du dopage.",
+            "legalAndEthicalIssues": "Questions Juridiques et Éthiques",
+            "legalAndEthicalIssuesDescription": "Discussions sur les affaires juridiques liées au dopage et les débats éthiques concernant les mesures anti-dopage."
+        },
+        "seeMore": "Voir Plus",
+        "antiDopingNews": "Actualités Anti-Dopage",
+        "antiDopingNewsDescription": "Les actualités sur le dopage fournissent des informations sur les derniers développements dans la lutte contre le dopage, y compris les affaires très médiatisées, les mises à jour des politiques, la recherche scientifique et les efforts éducatifs.",
+        "latestNews": "Dernières Nouvelles",
+        "readMore": "Lire la Suite"
+    },
+    "stats": {
+        "athletesWorldwide": "Nombre d'Athlètes dans le Monde (en Millions)",
+        "dopingIncidence": "Incidence du Dopage (en Millions)",
+        "dopingRelatedDeath": "Décès Liés au Dopage (annuellement)"
+    },
+    "welcome": "Bienvenue dans le Vérificateur de Substances",
+    "search_placeholder": "Entrez le nom ou la catégorie de la substance",
+    "search_button": "Rechercher",
+    "no_results": "Aucun résultat trouvé.",
+    "error": "Une erreur est survenue lors de la recherche.",
+    "substance": "Substance",
+    "category": "Catégorie",
+    "status": "Statut",
+    "description": "Description",
+    "something_went_wrong": "Quelque chose s'est mal passé.",
+    "try_again_later": "Nous sommes désolés, mais quelque chose s'est mal passé. Veuillez réessayer plus tard.",
+    "select_language": "Sélectionnez Votre Langue",
+    "search_language": "Rechercher une langue...",
+    "no_languages_found": "Aucune langue trouvée"
+}

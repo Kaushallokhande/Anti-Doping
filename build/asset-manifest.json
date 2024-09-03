@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5f9ef1bd.css",
+    "main.js": "/static/js/main.e49e055b.js",
+    "static/js/453.f9bb84fa.chunk.js": "/static/js/453.f9bb84fa.chunk.js",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/news1.avif": "/static/media/news1.df73a6217eacf057998c.avif",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/news2.jpg": "/static/media/news2.ee77a6386e195a4faeed.jpg",
+    "static/media/sliderimg3.jpeg": "/static/media/sliderimg3.4a8c38a917fee65c04bb.jpeg",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/logosih.jpg": "/static/media/logosih.c30bbabe6c88098a0d44.jpg",
+    "static/media/medicalbanner.webp": "/static/media/medicalbanner.6e2ac4d01667c388e498.webp",
+    "static/media/sliderimg5.avif": "/static/media/sliderimg5.0ec2d604ee00a8270768.avif",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/sliderimg4.jpeg": "/static/media/sliderimg4.29efb1a6cf74c792bcb0.jpeg",
+    "static/media/news3.jpg": "/static/media/news3.827deda7c339ebe94588.jpg",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/news4.avif": "/static/media/news4.3a2c0f428a057c9be756.avif",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "static/media/getFetch.cjs": "/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
+    "main.5f9ef1bd.css.map": "/static/css/main.5f9ef1bd.css.map",
+    "main.e49e055b.js.map": "/static/js/main.e49e055b.js.map",
+    "453.f9bb84fa.chunk.js.map": "/static/js/453.f9bb84fa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f9ef1bd.css",
+    "static/js/main.e49e055b.js"
+  ]
+}

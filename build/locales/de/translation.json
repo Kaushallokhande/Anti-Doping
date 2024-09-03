@@ -1,0 +1,153 @@
+{
+    "rulesAndRegulations": {
+        "title": "Regeln und Vorschriften zum Anti-Doping",
+        "prohibitedSubstances": {
+            "title": "1. Verbotene Substanzen und Methoden",
+            "description": "Laut der Regierung von Indien ist die Verwendung bestimmter Substanzen und Methoden im Sport verboten. Dazu gehören:",
+            "items": [
+                "Anabole Steroide",
+                "Peptidhormone",
+                "Beta-2-Agonisten",
+                "Diuretika und Maskierungsmittel",
+                "Stimulanzien",
+                "Narkotika",
+                "Cannabinoide"
+            ],
+            "final": "Athleten müssen sicherstellen, dass sie keine verbotenen Substanzen oder Methoden im Training oder Wettkampf verwenden."
+        },
+        "testingProcedures": {
+            "title": "2. Testverfahren",
+            "description": "Anti-Doping-Tests werden durchgeführt, um sicherzustellen, dass Athleten keine verbotenen Substanzen verwenden. Die Verfahren umfassen:",
+            "items": [
+                "Wettkampf-Tests",
+                "Außerhalb des Wettkampfs durchgeführte Tests",
+                "Probenentnahme und Analyse"
+            ],
+            "final": "Athleten können jederzeit für Tests ausgewählt werden und müssen den Testprozess einhalten."
+        },
+        "consequences": {
+            "title": "3. Konsequenzen von Doping-Verstößen",
+            "description": "Verstöße gegen die Anti-Doping-Regeln können schwerwiegende Konsequenzen haben, einschließlich:",
+            "items": [
+                "Disqualifikation von Wettbewerben",
+                "Aberkennung von Titeln und Auszeichnungen",
+                "Sperre von der Teilnahme am Sport",
+                "Geldstrafen und rechtliche Konsequenzen"
+            ],
+            "final": "Es liegt in der Verantwortung jedes Athleten, sich über die Anti-Doping-Regeln im Klaren zu sein und sicherzustellen, dass sie diese nicht verletzen."
+        },
+        "rightsResponsibilities": {
+            "title": "4. Rechte und Pflichten der Athleten",
+            "description": "Athleten haben bestimmte Rechte und Pflichten gemäß den Anti-Doping-Vorschriften, einschließlich:",
+            "items": [
+                "Das Recht auf Anforderung einer B-Proben-Analyse",
+                "Das Recht auf ein faires Verfahren",
+                "Die Verantwortung, über die Anti-Doping-Vorschriften informiert zu bleiben",
+                "Die Verantwortung, verbotene Substanzen und Methoden zu vermeiden"
+            ],
+            "final": "Athleten müssen alle Anti-Doping-Vorschriften einhalten, um die Integrität des Sports zu wahren."
+        },
+        "educationalResources": {
+            "title": "5. Bildungsressourcen",
+            "description": "Die Regierung von Indien bietet verschiedene Bildungsressourcen an, um Athleten über die Anti-Doping-Vorschriften informiert zu bleiben. Dazu gehören:",
+            "items": [
+                "Workshops und Seminare",
+                "Online-Kurse und Materialien",
+                "Beratung durch Trainer und Sportbehörden"
+            ],
+            "final": "Athleten werden ermutigt, diese Ressourcen zu nutzen, um sicherzustellen, dass sie vollständig über ihre Verpflichtungen gemäß den Anti-Doping-Vorschriften informiert sind."
+        }
+    },
+    "quizTitle": "Quiz-Bereich",
+    "quizDescription": "Teste dein Wissen zum Thema Anti-Doping.",
+    "easy": "Einfach",
+    "medium": "Mittel",
+    "hard": "Schwierig",
+    "resultsTitle": "Ergebnisse",
+    "resultsDescription": "Du hast {{score}} von {{total}} Fragen richtig beantwortet.",
+    "tryAgain": "Nochmal versuchen",
+    "loadingQuestions": "Fragen werden geladen...",
+    "submit": "Absenden",
+    "dashboard": {
+        "title": "Persönliches Dashboard",
+        "personalInformation": "Persönliche Informationen",
+        "name": "Name",
+        "email": "E-Mail",
+        "completedQuizzes": "Abgeschlossene Quizzes",
+        "totalPoints": "Gesamtpunkte",
+        "quizActivity": "Quiz-Aktivität",
+        "recentUpdates": "Aktuelle Updates",
+        "update1": "Update 1: Neue Anti-Doping-Regeln...",
+        "update2": "Update 2: Kommendes Webinar zum Thema Anti-Doping...",
+        "update3": "Update 3: Kürzliche Änderungen bei den Testverfahren..."
+    },
+    "menu": {
+        "title": "Persönliches Dashboard",
+        "personalInformation": "Persönliche Informationen",
+        "personalInformationDescription": "Sieh dir deine persönlichen Daten an und bearbeite sie.",
+        "quizActivity": "Quiz-Aktivität",
+        "quizActivityDescription": "Verfolge deinen Quiz-Fortschritt und deine Leistung.",
+        "antiDopingRules": "Anti-Doping-Regeln",
+        "antiDopingRulesDescription": "Greife auf die neuesten Anti-Doping-Richtlinien und Vorschriften zu.",
+        "settings": "Einstellungen",
+        "settingsDescription": "Passe die Einstellungen und Präferenzen deines Dashboards an.",
+        "helpAndSupport": "Hilfe und Unterstützung",
+        "helpAndSupportDescription": "Erhalte Unterstützung und finde Antworten auf deine Fragen."
+    },
+    "footer": {
+        "antiDopingResources": "ANTI-DOPING-RESSOURCEN",
+        "antiDopingGuidelines": "Anti-Doping-Richtlinien",
+        "trainingPrograms": "Schulungsprogramme",
+        "newsUpdates": "Nachrichten & Updates",
+        "contactInformation": "Kontaktinformationen",
+        "aboutUs": "ÜBER UNS",
+        "missionStatement": "Unsere Mission",
+        "ourApproach": "Unser Ansatz",
+        "meetTheTeam": "Das Team kennenlernen",
+        "getInvolved": "ENGAGIERE DICH",
+        "joinOurCommunity": "Werde Teil unserer Community",
+        "contributeContent": "Inhalte beitragen",
+        "feedbackSuggestions": "Feedback & Vorschläge",
+        "followUs": "FOLGE UNS"
+    },
+    "cta": {
+        "topStories": "Top-Nachrichten",
+        "topStoriesDescription": "Bleiben Sie informiert über die neuesten Top-Nachrichten zum Thema Anti-Doping. Entdecken Sie wichtige Updates, neue Richtlinien, wissenschaftliche Fortschritte und mehr.",
+        "stories": {
+            "highProfileDopingCases": "Hochkarätige Dopingfälle",
+            "highProfileDopingCasesDescription": "Updates zu bedeutenden Sportlern, die positiv auf verbotene Substanzen getestet wurden, einschließlich Ermittlungen und rechtlicher Ergebnisse.",
+            "newAntiDopingPolicies": "Neue Anti-Doping-Richtlinien",
+            "newAntiDopingPoliciesDescription": "Ankündigungen von Änderungen oder Aktualisierungen der Anti-Doping-Vorschriften und -Verfahren durch Organisationen wie die WADA (Welt-Anti-Doping-Agentur).",
+            "researchAndDevelopments": "Forschung und Entwicklungen",
+            "researchAndDevelopmentsDescription": "Fortschritte bei Testmethoden und wissenschaftlicher Forschung zur besseren Erkennung von Doping.",
+            "educationalInitiatives": "Bildungsinitiativen",
+            "educationalInitiativesDescription": "Bemühungen, Sportler, Trainer und Offizielle über die Risiken und Konsequenzen von Doping aufzuklären.",
+            "legalAndEthicalIssues": "Rechtliche und ethische Fragen",
+            "legalAndEthicalIssuesDescription": "Diskussionen über rechtliche Fälle im Zusammenhang mit Doping und ethische Debatten über Anti-Doping-Maßnahmen."
+        },
+        "seeMore": "Mehr sehen",
+        "antiDopingNews": "Anti-Doping-Nachrichten",
+        "antiDopingNewsDescription": "Anti-Doping-Nachrichten bieten Einblicke in die neuesten Entwicklungen im Kampf gegen Doping, einschließlich hochkarätiger Fälle, Richtlinienaktualisierungen, wissenschaftlicher Forschung und Bildungsbemühungen.",
+        "latestNews": "Neueste Nachrichten",
+        "readMore": "Weiterlesen"
+    },
+    "stats": {
+        "athletesWorldwide": "Anzahl der Sportler weltweit (in Millionen)",
+        "dopingIncidence": "Doping-Inzidenz (in Millionen)",
+        "dopingRelatedDeath": "Dopingbedingte Todesfälle (jährlich)"
+    },
+    "welcome": "Willkommen beim Substanzprüfer",
+    "search_placeholder": "Geben Sie den Namen oder die Kategorie der Substanz ein",
+    "search_button": "Suchen",
+    "no_results": "Keine Ergebnisse gefunden.",
+    "error": "Bei der Suche ist ein Fehler aufgetreten.",
+    "substance": "Substanz",
+    "category": "Kategorie",
+    "status": "Status",
+    "description": "Beschreibung",
+    "something_went_wrong": "Etwas ist schiefgelaufen.",
+    "try_again_later": "Es tut uns leid, aber etwas ist schiefgelaufen. Bitte versuchen Sie es später noch einmal.",
+    "select_language": "Wählen Sie Ihre Sprache",
+    "search_language": "Sprache suchen...",
+    "no_languages_found": "Keine Sprachen gefunden"
+}
