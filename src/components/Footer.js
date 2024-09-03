@@ -8,7 +8,7 @@ export default function Footer() {
   const { t } = useTranslation(); 
 
   return (
-    <MDBFooter className="text-gray-600 body-font bg-gray-100 py-6">
+    <MDBFooter className="text-gray-600 body-font bg-gray-100 py-0">
       <MDBContainer className="flex flex-col items-center">
         <MDBRow className="w-full max-w-7xl px-5">
           <MDBCol lg="3" md="6" className="w-full px-2 mb-6">
