@@ -1,6 +1,6 @@
 # Anti-Doping
 
-This is a React application that includes various features such as authentication, a dashboard, quizzes, and more. It uses React Router for routing and Google OAuth for authentication.
+This is a React application designed to manage and present information related to anti-doping efforts. It includes various features such as authentication, a dashboard, quizzes, and more. It uses React Router for routing and Google OAuth for authentication.
 
 ## Features
 
@@ -8,6 +8,10 @@ This is a React application that includes various features such as authenticatio
 - **Google OAuth:** Provides authentication via Google.
 - **Responsive Design:** Utilizes Tailwind CSS for styling (along with regular CSS).
 - **Lazy Loading:** Implemented with `React.Suspense` to handle component loading.
+
+## Deployment
+
+The project is deployed and can be accessed at: [Anti-Doping](https://anti-doping-mwbupug93-kaushallokhandes-projects.vercel.app/)
 
 ## Installation
 
@@ -67,4 +71,4 @@ If you would like to contribute to this project, please fork the repository and 
 
 ## Contact
 
-For any questions or issues, please contact [Your Name](mailto:kaushallokahnde3@gmail.com).
+For any questions or issues, please contact [Your Name](mailto:kaushallokhande3@gmail.com).
