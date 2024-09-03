@@ -1,0 +1,29 @@
+.image-slider {
+  padding: 20px 0 0 0;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.image-slider .slick-dots {
+  bottom: -30px;
+}
+
+.image-slider img {
+  max-width: 100%;
+  min-height: 400px;
+  height: auto;
+  margin: auto;
+}
+
+.bar-container {
+  display: flex;
+  justify-content: center;
+}
+
+.bar {
+  margin-top: 5px;
+  width: 100%;
+  padding: 0.2px;
+  color: rgb(40, 38, 38);
+}

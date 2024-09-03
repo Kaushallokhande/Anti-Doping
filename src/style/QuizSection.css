@@ -1,0 +1,21 @@
+body{
+  margin-top: 40px;
+
+}
+.quiz-section {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .quiz-questions .question {
+    background-color: #f9fafb;
+  }
+  
+  .question input[type="radio"] {
+    margin-right: 0.5rem;
+  }
+  
+  .question label {
+    cursor: pointer;
+  }
+  
