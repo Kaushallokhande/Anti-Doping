@@ -50,6 +50,7 @@ const router = createBrowserRouter([
             path: '/news',
             element: <NewsSection />
           },
+
           {
             path: '/med',
             element: <Medical />
@@ -90,10 +91,10 @@ const router = createBrowserRouter([
 
 root.render(
   <React.StrictMode>
-    <React.Suspense fallback = "loading ...">
-    <GoogleOAuthProvider clientId="215309718511-uv4b9g72pq3lj3qv504mtnvlvsg7sfll.apps.googleusercontent.com">
-      <RouterProvider router={router} />
-    </GoogleOAuthProvider>
+    <React.Suspense fallback="loading ...">
+      <GoogleOAuthProvider clientId= {process.env.clientId} >
+          <RouterProvider router={router} />
+      </GoogleOAuthProvider>
     </React.Suspense>
   </React.StrictMode>
 );
