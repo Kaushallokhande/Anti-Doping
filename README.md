@@ -11,7 +11,7 @@ This is a React application designed to manage and present information related t
 
 ## Deployment
 
-The project is deployed and can be accessed at: [Anti-Doping](https://anti-doping-mwbupug93-kaushallokhandes-projects.vercel.app/)
+The project is deployed and can be accessed at: [Anti-Doping](https://anti-doping.vercel.app/)
 
 ## Installation
 
