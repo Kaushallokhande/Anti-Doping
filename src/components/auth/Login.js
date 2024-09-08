@@ -61,7 +61,7 @@ const Login = () => {
         <div className="mt-3 text-center">
           <p className="text-sm text-gray-600">or</p>
           <div className="mt-2">
-            <GoogleOAuthProvider clientId={process.env.clientId}>
+            <GoogleOAuthProvider clientId="215309718511-uv4b9g72pq3lj3qv504mtnvlvsg7sfll.apps.googleusercontent.com">
               <GoogleLogin
                 onSuccess={handleLoginSuccess}
                 onError={handleLoginFailure}
