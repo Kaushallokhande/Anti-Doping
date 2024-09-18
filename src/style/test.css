@@ -1,0 +1,67 @@
+/* test.css */
+
+/* Container for the filter component */
+.tests-container {
+  max-width: 100%;
+  padding: 2rem;
+}
+
+.tests-section h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* Styling for the filter form */
+.tests-filter-box {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for form labels and selects */
+.tests-filter-box label {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+  color: #444;
+}
+
+.tests-filter-box select {
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Margin for form labels */
+.tests-mx-3 {
+  margin: 0 0.75rem;
+}
+
+/* Styling for the filter button */
+.tests-filter-button-container {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.tests-filter-button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tests-filter-button:hover {
+  background-color: #0056b3;
+}

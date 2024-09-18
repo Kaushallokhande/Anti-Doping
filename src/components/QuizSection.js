@@ -88,12 +88,22 @@ const QuizSection = () => {
   const [userAnswers, setUserAnswers] = useState({});
   const [showResults, setShowResults] = useState(false);
   const [score, setScore] = useState(0);
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
+  const [feedback, setFeedback] = useState('');
+  const [selectedAnswer, setSelectedAnswer] = useState('');
 
   useEffect(() => {
+    startNewQuiz();
+  }, [currentLevel, i18n.language]);
+
+  const startNewQuiz = () => {
     setQuizQuestions(getRandomQuestions(currentLevel));
     setUserAnswers({});
     setShowResults(false);
-  }, [currentLevel, i18n.language]);
+    setCurrentQuestionIndex(0);
+    setFeedback('');
+    setSelectedAnswer('');
+  };
 
   function getRandomQuestions(level) {
     const levelQuestions = questions[i18n.language][level];
@@ -105,11 +115,31 @@ const QuizSection = () => {
     setCurrentLevel(level);
   };
 
-  const handleAnswerChange = (questionId, answer) => {
-    setUserAnswers({
-      ...userAnswers,
-      [questionId]: answer,
-    });
+  const handleAnswerChange = (answer) => {
+    setSelectedAnswer(answer);
+    const question = quizQuestions[currentQuestionIndex];
+    if (answer === question.answer) {
+      setFeedback({ message: t('correctAnswer'), type: 'correct' });
+    } else {
+      setFeedback({ message: t('wrongAnswer', { correctAnswer: question.answer }), type: 'incorrect' });
+    }
+  };
+
+  const handleNextQuestion = () => {
+    if (selectedAnswer) {
+      const question = quizQuestions[currentQuestionIndex];
+      setUserAnswers({
+        ...userAnswers,
+        [question.id]: selectedAnswer,
+      });
+      setSelectedAnswer('');
+      if (currentQuestionIndex < quizQuestions.length - 1) {
+        setCurrentQuestionIndex(currentQuestionIndex + 1);
+        setFeedback(''); // Clear feedback for next question
+      } else {
+        handleSubmit();
+      }
+    }
   };
 
   const handleSubmit = () => {
@@ -127,7 +157,9 @@ const QuizSection = () => {
     <div className="quiz-section p-8">
       <div className="text-center mb-6">
         <h2 className="text-3xl font-bold mb-4">{t('quizTitle')}</h2>
-        <p className="text-lg mb-4">{t('quizDescription')}</p>
+        <p className="text-lg mb-4 w-full">
+          {t("It Cover the fundamentals of anti-doping rules, prohibited substances, and methods. Focus on educating users about the importance of clean sport and how to avoid doping. Utilize real-life examples and case studies to test application of knowledge.Explore the ethical and legal implications of doping.Provide practical advice and procedures related to anti-doping.")}
+        </p>
         <div className="flex justify-center mb-4">
           <button
             onClick={() => handleLevelChange('easy')}
@@ -154,8 +186,9 @@ const QuizSection = () => {
         <div className="text-center">
           <h3 className="text-2xl font-semibold mb-4">{t('resultsTitle')}</h3>
           <p className="text-xl mb-4">{t('resultsDescription', { score, total: quizQuestions.length })}</p>
+          <p className="text-lg mb-4">{t('Performance :- ', { rating: (score / quizQuestions.length) * 100 })}</p>
           <button
-            onClick={() => setShowResults(false)}
+            onClick={startNewQuiz}
             className="px-4 py-2 bg-blue-500 text-white rounded"
           >
             {t('tryAgain')}
@@ -163,38 +196,42 @@ const QuizSection = () => {
         </div>
       ) : (
         <div className="quiz-questions">
-          {quizQuestions.length > 0 ? (
-            quizQuestions.map((question, index) => (
-              <div key={question.id} className="question mb-4 p-4 border border-gray-300 rounded">
-                <h3 className="text-xl font-semibold mb-2">{index + 1}. {question.question}</h3>
-                <ul className="options list-disc pl-5">
-                  {question.options.map((option, i) => (
-                    <li key={i} className="mb-1">
-                      <input
-                        type="radio"
-                        id={`q${question.id}o${i}`}
-                        name={`q${question.id}`}
-                        value={option}
-                        checked={userAnswers[question.id] === option}
-                        onChange={() => handleAnswerChange(question.id, option)}
-                      />
-                      <label htmlFor={`q${question.id}o${i}`} className="ml-2">{option}</label>
-                    </li>
-                  ))}
-                </ul>
+          {quizQuestions.length > 0 && (
+            <div className="question mb-4 p-4 border border-gray-300 rounded">
+              <h3 className="text-xl font-semibold mb-2">
+                {currentQuestionIndex + 1}. {quizQuestions[currentQuestionIndex].question}
+              </h3>
+              <ul className="options list-disc pl-5">
+                {quizQuestions[currentQuestionIndex].options.map((option, i) => (
+                  <li key={i} className="mb-1">
+                    <input
+                      type="radio"
+                      id={`q${quizQuestions[currentQuestionIndex].id}o${i}`}
+                      name={`q${quizQuestions[currentQuestionIndex].id}`}
+                      value={option}
+                      checked={selectedAnswer === option}
+                      onChange={() => handleAnswerChange(option)}
+                    />
+                    <label htmlFor={`q${quizQuestions[currentQuestionIndex].id}o${i}`} className="ml-2">{option}</label>
+                  </li>
+                ))}
+              </ul>
+              {feedback && (
+                <p className={`mt-2 ${feedback.type === 'correct' ? 'text-blue-500' : 'text-red-500'}`}>
+                  {feedback.message}
+                </p>
+              )}
+              <div className="text-center mt-6">
+                <button
+                  onClick={handleNextQuestion}
+                  className="px-4 py-2 bg-blue-500 text-white rounded"
+                  disabled={!selectedAnswer}
+                >
+                  {currentQuestionIndex < quizQuestions.length - 1 ? t('next') : t('submit')}
+                </button>
               </div>
-            ))
-          ) : (
-            <p className="text-center">{t('loadingQuestions')}</p>
+            </div>
           )}
-          <div className="text-center mt-6">
-            <button
-              onClick={handleSubmit}
-              className="px-4 py-2 bg-blue-500 text-white rounded"
-            >
-              {t('submit')}
-            </button>
-          </div>
         </div>
       )}
     </div>

@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+/* Chart Container */
+.chart-container {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.chart-wrapper {
+  width: 100%;
+  height: 250px;
+  position: relative;
+}
+
+/* Responsive Styles */
+@media (max-width: 640px) {
+  .chart-wrapper {
+    height: 200px;
+  }
+}
+
+/* Personal Information Section */
+.personal-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.personal-info-photo {
+  width: 120px;
+  height: 120px;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.personal-info-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.personal-info-details {
+  width: 100%;
+  text-align: left;
+}
+
+/* Responsive Design for Personal Info */
+@media (max-width: 640px) {
+  .personal-info-photo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .personal-info-details {
+    font-size: 14px;
+  }
+}
+
+/* Badges Section */
+.badges-container {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+
+.badge-item {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Recent Updates */
+.recent-updates {
+  margin-top: 1rem;
+}
+
+.recent-updates a {
+  color: #1d4ed8; /* Blue color */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.recent-updates a:hover {
+  color: #2563eb; /* Darker blue color */
+  text-decoration: underline;
+}

@@ -1,7 +1,7 @@
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { FaGlobe } from 'react-icons/fa';
-import logosih from '../images/logosih.jpg';
+import logosih from '../images/prahari_new_logo-removebg-preview.png';
 import { useOutletContext } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
@@ -22,6 +22,7 @@ export default function Navbar() {
         { name: 'Dashboard', href: '/dashboard', current: false },
         { name: 'Quiz Section', href: '/quiz', current: false },
         { name: 'Menu', href: '/menu', current: false },
+        { name: 'Assistant', href: '/chat', current: false },
       ]
       : []),
     { href: '/lng', current: false, icon: <FaGlobe className="h-5 w-5" /> },
@@ -33,12 +34,13 @@ export default function Navbar() {
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           <div className="flex items-center justify-between w-full">
-            <div className="flex items-center">
+            <div className="flex items-center px-4 sm:px-6">
               <img
                 alt="Your Company"
                 src={logosih}
-                className="h-12 w-auto sm:h-16 md:h-20 lg:h-16"
+                className="h-8 w-auto sm:h-10 md:h-14 lg:h-12"
               />
+
             </div>
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-0">
@@ -53,7 +55,7 @@ export default function Navbar() {
                     )}
                   >
                     {item.icon && <span className="mr-2">{item.icon}</span>}
-                    {!item.icon && item.name} 
+                    {!item.icon && item.name}
                   </Link>
                 ))}
               </div>

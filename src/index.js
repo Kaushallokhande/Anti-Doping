@@ -20,6 +20,10 @@ import Menu from './components/Menu';
 import Language from './components/Language';
 import Medical from './components/Medical.js';
 import './i18n.js'
+import MedicineClassifier from './components/MedicineClassifier.js';
+import ChatApp from './components/ChatApp.js';
+import CleoOne from './components/CleoOne';
+import QuizFront from './components/QuizFront.jsx';
 
 const images = [
   lighthouseImg,
@@ -50,10 +54,13 @@ const router = createBrowserRouter([
             path: '/news',
             element: <NewsSection />
           },
-
           {
             path: '/med',
             element: <Medical />
+          },
+          {
+            path: '/image',
+            element: <MedicineClassifier />
           },
           {
             path: '/menu',
@@ -65,6 +72,10 @@ const router = createBrowserRouter([
           },
           {
             path: '/quiz',
+            element: <QuizFront />
+          },
+          {
+            path: '/quiz/start',
             element: <QuizSection />
           },
           {
@@ -85,15 +96,19 @@ const router = createBrowserRouter([
         path: '/signup',
         element: <SignUp />
       },
+      {
+        path: '/chat',
+        element: <ChatApp />
+      },
     ]
   }
 ]);
 
 root.render(
   <React.StrictMode>
-    <React.Suspense fallback="loading ...">
-      <GoogleOAuthProvider clientId= {process.env.clientId} >
-          <RouterProvider router={router} />
+    <React.Suspense fallback={<CleoOne />}> 
+      <GoogleOAuthProvider clientId={process.env.clientId}>
+        <RouterProvider router={router} />
       </GoogleOAuthProvider>
     </React.Suspense>
   </React.StrictMode>

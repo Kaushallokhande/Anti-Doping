@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.574b225c.css",
-    "main.js": "/static/js/main.cef1e10b.js",
+    "main.css": "/static/css/main.63356be4.css",
+    "main.js": "/static/js/main.a07022b7.js",
     "static/js/453.f9bb84fa.chunk.js": "/static/js/453.f9bb84fa.chunk.js",
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
@@ -10,9 +10,9 @@
     "static/media/news2.jpg": "/static/media/news2.ee77a6386e195a4faeed.jpg",
     "static/media/sliderimg3.jpeg": "/static/media/sliderimg3.4a8c38a917fee65c04bb.jpeg",
     "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
-    "static/media/logosih.jpg": "/static/media/logosih.c30bbabe6c88098a0d44.jpg",
     "static/media/medicalbanner.webp": "/static/media/medicalbanner.6e2ac4d01667c388e498.webp",
     "static/media/sliderimg5.avif": "/static/media/sliderimg5.0ec2d604ee00a8270768.avif",
+    "static/media/prahari_new_logo-removebg-preview.png": "/static/media/prahari_new_logo-removebg-preview.101a9f168f41a5cc83b2.png",
     "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
     "static/media/sliderimg4.jpeg": "/static/media/sliderimg4.29efb1a6cf74c792bcb0.jpeg",
     "static/media/news3.jpg": "/static/media/news3.827deda7c339ebe94588.jpg",
@@ -26,12 +26,12 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
-    "main.574b225c.css.map": "/static/css/main.574b225c.css.map",
-    "main.cef1e10b.js.map": "/static/js/main.cef1e10b.js.map",
+    "main.63356be4.css.map": "/static/css/main.63356be4.css.map",
+    "main.a07022b7.js.map": "/static/js/main.a07022b7.js.map",
     "453.f9bb84fa.chunk.js.map": "/static/js/453.f9bb84fa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.574b225c.css",
-    "static/js/main.cef1e10b.js"
+    "static/css/main.63356be4.css",
+    "static/js/main.a07022b7.js"
   ]
 }
