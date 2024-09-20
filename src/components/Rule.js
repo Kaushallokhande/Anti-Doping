@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
-import "../style/rule.css";
+import "../style/newrules.css";
 import Test from "./test";
 
 const RulesAndRegulations = () => {

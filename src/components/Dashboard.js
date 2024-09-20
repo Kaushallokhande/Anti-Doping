@@ -83,7 +83,7 @@ export default function AthleteDashboard() {
   };
 
   return (
-    <div className="p-8 bg-gray-100 min-h-screen">
+    <div className="bg-gray-100 min-h-screen">
       <div className="bg-white shadow-lg rounded-xl p-8">
         <h1 className="text-3l font-extrabold mb-6 text-cyan-550 text-center bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-blue-600">
           {t("dashboard.title")}

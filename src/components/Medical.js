@@ -93,7 +93,7 @@ function Medical() {
 
   return (
     <ErrorBoundary t={t}>
-      <div className="container">
+      <div className="container bg-white">
         <div className="banner-main">
           <h2>#HonestVictory</h2>
         </div>

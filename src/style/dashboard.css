@@ -2,28 +2,21 @@
 body {
   font-family: 'Arial', sans-serif;
   color: #333;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Chart Container */
-.chart-container {
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  overflow: hidden;
-  margin-bottom: 1rem;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
 }
 
-.chart-wrapper {
-  width: 100%;
-  height: 250px;
-  position: relative;
-}
-
-/* Responsive Styles */
-@media (max-width: 640px) {
-  .chart-wrapper {
-    height: 200px;
-  }
+h1, h2, h3, h4 {
+  margin: 0 0 1rem;
+  font-weight: bold;
+  color: #333;
 }
 
 /* Personal Information Section */
@@ -37,8 +30,6 @@ body {
 .personal-info-photo {
   width: 120px;
   height: 120px;
-  border: 2px solid #ddd;
-  border-radius: 12px;
   overflow: hidden;
   margin-bottom: 1rem;
 }
@@ -52,18 +43,6 @@ body {
 .personal-info-details {
   width: 100%;
   text-align: left;
-}
-
-/* Responsive Design for Personal Info */
-@media (max-width: 640px) {
-  .personal-info-photo {
-    width: 100px;
-    height: 100px;
-  }
-
-  .personal-info-details {
-    font-size: 14px;
-  }
 }
 
 /* Badges Section */
@@ -81,18 +60,79 @@ body {
   text-align: center;
 }
 
-/* Recent Updates */
-.recent-updates {
-  margin-top: 1rem;
+/* Progress Chart */
+.chart-container {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 1rem;
 }
 
-.recent-updates a {
-  color: #1d4ed8; /* Blue color */
-  text-decoration: none;
-  transition: color 0.3s;
+.chart-wrapper {
+  width: 100%;
+  height: 250px;
+  position: relative;
 }
 
-.recent-updates a:hover {
-  color: #2563eb; /* Darker blue color */
-  text-decoration: underline;
+@media (max-width: 640px) {
+  .chart-wrapper {
+    height: 200px;
+  }
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 1024px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .personal-info-container {
+    margin-bottom: 1.5rem;
+  }
+
+  .badge-item {
+    padding: 0.75rem;
+  }
+
+  .personal-info-photo {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 640px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .personal-info-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .personal-info-photo {
+    width: 90px;
+    height: 90px;
+  }
+
+  .badge-item {
+    padding: 0.5rem;
+  }
+
+  .personal-info-details {
+    font-size: 0.9rem;
+  }
+
+  .chart-wrapper {
+    height: 180px;
+  }
+
+  .recent-updates a {
+    font-size: 0.85rem;
+  }
 }

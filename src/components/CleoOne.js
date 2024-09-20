@@ -4,7 +4,7 @@ import ContentLoader from 'react-content-loader'
 const CleoOne = props => (
     <div style={{margin: "25px"}}>
 
-        <ContentLoader viewBox="0 0 400 475" height="40%" width="80%" {...props}>
+        <ContentLoader viewBox="0 0 400 475" height="40%" width="70%" {...props}>
             <circle cx="30" cy="258" r="30" />
             <rect x="75" y="233" rx="4" ry="4" width="100" height="13" />
             <rect x="75" y="260" rx="4" ry="4" width="50" height="8" />

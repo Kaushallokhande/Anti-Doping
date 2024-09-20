@@ -3,6 +3,8 @@
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .banner-main {
@@ -25,24 +27,12 @@
   font-size: 79px;
 }
 
-.banner {
-  background-color: #f0f8ff;
-  border: 1px solid #d0e1ff;
-  border-radius: 8px;
-  margin-top: 10px;
-  padding: 15px;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.banner p {
-  color: #333;
-}
-
+/* Search section - responsive layout */
 .search-section {
   display: flex;
   gap: 10px;
   margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 
 .search-section input {
@@ -50,19 +40,42 @@
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
 }
 
-.search-section button {
+/* Shared button styles */
+.search-section button,
+.image_import {
   padding: 10px 20px;
   background-color: #007bff;
   color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s, transform 0.3s;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  min-width: 120px; /* Ensures both buttons have the same width */
 }
 
 .search-section button:hover {
   background-color: #0056b3;
+}
+
+.image_import {
+  background: linear-gradient(45deg, #00c6ff, #0072ff);
+}
+
+.image_import:hover {
+  background: linear-gradient(45deg, #e52e71, #ff8a00);
+  transform: scale(1.05);
+}
+
+.search-section button:focus, .image_import:focus {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 .results-section {
@@ -103,30 +116,18 @@
 
 .suggestions-list {
   list-style: square;
+  margin-top: 10px;
+  padding-left: 20px;
 }
 
-.suggestions-list li,
-.results-section li {
-  padding: 15px;
-  border-bottom: 1px solid #ddd;
+.suggestions-list li {
+  padding: 10px;
+  cursor: pointer;
   transition: background-color 0.3s;
 }
 
-.suggestions-list li:last-child,
-.results-section li:last-child {
-  border-bottom: none;
-}
-
-.suggestions-list li:hover,
-.results-section li:hover {
+.suggestions-list li:hover {
   background-color: #f0f0f0;
-  cursor: pointer;
-}
-
-.suggestions-list li:focus,
-.results-section li:focus {
-  outline: 2px solid #007bff;
-  outline-offset: 2px;
 }
 
 @media (max-width: 1200px) {
@@ -148,6 +149,17 @@
   .banner-main h2 {
     font-size: 45px;
   }
+
+  .search-section {
+    flex-direction: column;
+  }
+
+  .search-section input,
+  .search-section button,
+  .image_import {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -159,27 +171,4 @@
   .banner-main h2 {
     font-size: 30px;
   }
-}
-/* Base styles for the Import button */
-.image_import {
-  padding: 10px 20px;
-  background: linear-gradient(45deg, #00c6ff, #0072ff); /* Gradient background */
-  color: #fff;
-  border: none;
-  border-radius: 8px; /* Rounded corners */
-  cursor: pointer;
-  font-size: 16px; /* Larger font size for better visibility */
-  transition: background 0.3s, transform 0.3s; /* Smooth transition effects */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
-}
-
-.image_import:hover {
-  background: linear-gradient(45deg, #e52e71, #ff8a00); /* Reversed gradient for hover effect */
-  transform: scale(1.05); /* Slightly larger button on hover */
-}
-
-.image_import:focus {
-  outline: 2px solid #007bff; /* Outline color on focus */
-  outline-offset: 2px;
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on focus */
 }

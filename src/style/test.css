@@ -1,42 +1,65 @@
-/* test.css */
-
 /* Container for the filter component */
 .tests-container {
   max-width: 100%;
   padding: 2rem;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
 }
 
 .tests-section h2 {
-  font-size: 1.75rem;
-  font-weight: 600;
+  font-size: 2rem;
+  font-weight: 700;
   margin-bottom: 1.5rem;
   color: #333;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 /* Styling for the filter form */
 .tests-filter-box {
-  background-color: #ffffff;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 1.5rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 12px;
+  padding: 2rem;
+  transition: transform 0.3s ease;
+}
+
+/* Add slight hover effect to the filter box */
+.tests-filter-box:hover {
+  transform: translateY(-5px);
 }
 
 /* Styling for form labels and selects */
 .tests-filter-box label {
   display: block;
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
   font-size: 1.125rem;
-  color: #444;
+  font-weight: 500;
+  color: #555;
+  letter-spacing: 0.5px;
 }
 
 .tests-filter-box select {
   margin-left: 0.5rem;
-  padding: 0.5rem;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
   font-size: 1rem;
   color: #333;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease;
+}
+
+/* Add hover effect to selects */
+.tests-filter-box select:hover {
+  border-color: #007bff;
+}
+
+/* Add focus effect to inputs */
+.tests-filter-box select:focus {
+  border-color: #0056b3;
+  outline: none;
 }
 
 /* Margin for form labels */
@@ -47,21 +70,19 @@
 /* Styling for the filter button */
 .tests-filter-button-container {
   text-align: center;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 }
 
 .tests-filter-button {
   padding: 0.75rem 1.5rem;
   font-size: 1.125rem;
-  font-weight: 600;
+  font-weight: 700;
   color: #ffffff;
   background-color: #007bff;
   border: none;
-  border-radius: 4px;
+  border-radius: 8px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
-.tests-filter-button:hover {
-  background-color: #0056b3;
-}
