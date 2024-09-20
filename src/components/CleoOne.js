@@ -2,9 +2,9 @@ import React from 'react'
 import ContentLoader from 'react-content-loader'
 
 const CleoOne = props => (
-    <>
+    <div style={{margin: "25px"}}>
 
-        <ContentLoader viewBox="0 0 400 475" height={900} width={1200} {...props}>
+        <ContentLoader viewBox="0 0 400 475" height="40%" width="80%" {...props}>
             <circle cx="30" cy="258" r="30" />
             <rect x="75" y="233" rx="4" ry="4" width="100" height="13" />
             <rect x="75" y="260" rx="4" ry="4" width="50" height="8" />
@@ -12,8 +12,8 @@ const CleoOne = props => (
             <rect x="0" y="0" rx="5" ry="5" width="400" height="200" />
         </ContentLoader>
         <ContentLoader
-            width={1200}
-            height={900}
+            width="70%"
+            height="50%"
             viewBox="0 0 1200 900"
             backgroundColor="#eaeced"
             foregroundColor="#ffffff"
@@ -81,7 +81,7 @@ const CleoOne = props => (
             <rect x="890" y="218" rx="0" ry="0" width="140" height="40" />
             <circle cx="1032" cy="238" r="20" />
         </ContentLoader>
-    </>
+    </div>
 )
 
 export default CleoOne
