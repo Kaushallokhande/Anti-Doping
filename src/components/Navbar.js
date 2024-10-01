@@ -23,6 +23,7 @@ export default function Navbar() {
         { name: 'Quiz Section', href: '/quiz', current: false },
         { name: 'Menu', href: '/menu', current: false },
         { name: 'Assistant', href: '/chat', current: false },
+        { name: 'Map', href: 'https://g-map-snowy.vercel.app/', current: false },
       ]
       : []),
     { href: '/lng', current: false, icon: <FaGlobe className="h-5 w-5" /> },

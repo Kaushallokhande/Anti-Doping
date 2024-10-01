@@ -89,6 +89,8 @@
         "quizActivityDescription": "Track your quiz progress and performance.",
         "antiDopingRules": "Anti-Doping Rules",
         "antiDopingRulesDescription": "Access the latest anti-doping guidelines and regulations.",
+        "map": "Nearest Hospital",
+        "mapDescription": "Access nearest available hospital with calculated distance & duration.",
         "settings": "Settings",
         "settingsDescription": "Customize your dashboard settings and preferences.",
         "helpAndSupport": "Help and Support",
